@@ -1,0 +1,17 @@
+/* style.scss에서 컴파일된 CSS가 이 파일에 들어갑니다. 실제 개발 시 SCSS를 CSS로 변환해야 합니다. */
+
+body {
+  font-family: 'Apple SD Gothic Neo', Arial, sans-serif;
+  background: #f5f6f7;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background: #fff;
+  border-bottom: 1px solid #e4e4e4;
+}

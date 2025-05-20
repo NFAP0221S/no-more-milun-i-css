@@ -1,0 +1,28 @@
+// 네이버 첫 페이지 클론 SCSS 기본 구조
+
+// 변수 예시
+$main-color: #03c75a;
+$gray-bg: #f5f6f7;
+
+// 믹스인 예시
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: 'Apple SD Gothic Neo', Arial, sans-serif;
+  background: $gray-bg;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  @include flex-center;
+  height: 80px;
+  background: #fff;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+// 추가 SCSS는 여기에 작성
