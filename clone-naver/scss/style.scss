@@ -1,12 +1,12 @@
 // 네이버 첫 페이지 클론 SCSS 기본 구조
-@import "./base/reset";
 @import "./base/variables";
 @import "./base/mixins";
 
-@import "./layout/main";
+@import "./layout/wrap";
+// @import "./layout/main";
 @import "./layout/header";
+@import "./layout/container";
 @import "./layout/footer";
-@import "./layout/mixins";
 
 @import "./components/button";
 @import "./components/search";
