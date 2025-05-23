@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>overflow-x: hidden; 비교</title>
+    <style>
+      .container {
+        width: 400px;
+        border: 2px solid #333;
+        margin-bottom: 40px;
+        overflow-x: auto; /* 기본값: 스크롤 허용 */
+      }
+      .container-hidden {
+        width: 400px;
+        border: 2px solid #333;
+        overflow-x: hidden; /* 넘치는 부분 숨김 */
+      }
+      .content {
+        width: 700px;
+        height: 100px;
+        background: linear-gradient(90deg, #03c75a 0%, #ffb300 100%);
+        color: #fff;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>overflow-x: auto (기본값, 스크롤 가능)</h2>
+    <div class="container">
+      <div class="content">이 영역은 width: 700px (초록~노랑 그라데이션)</div>
+    </div>
+
+    <h2>overflow-x: hidden (넘치는 부분 숨김)</h2>
+    <div class="container-hidden">
+      <div class="content">이 영역은 width: 700px (초록~노랑 그라데이션)</div>
+    </div>
+  </body>
+</html>

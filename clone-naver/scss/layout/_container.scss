@@ -1,8 +1,6 @@
-// .wrap {
-//   max-width: 1280px;      // 최대 너비 (네이버는 1080~1280px 사이가 많음)
-//   margin: 0 auto;         // 가운데 정렬
-//   background: #fff;       // 전체 배경색 (필요시)
-//   min-height: 100vh;      // 화면 전체 높이
-//   box-shadow: 0 0 8px rgba(0,0,0,0.04); // (선택) 살짝 그림자
-//   position: relative;     // 필요시 포지셔닝 기준
-// }
+.container {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
