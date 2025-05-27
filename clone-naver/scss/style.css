@@ -4,16 +4,22 @@
   background-color: green;
 }
 
-.header {
+#header {
   width: 1280px;
   margin: 0 auto;
   height: 400px;
   background-color: #111;
 }
 
-.container {
+#container {
   position: relative;
   width: 1280px;
   margin: 0 auto;
   padding-bottom: 60px;
+}
+
+#footer {
+  border-top: 1px solid #111;
+  height: 100px;
+  background-color: #111;
 }/*# sourceMappingURL=style.css.map */
